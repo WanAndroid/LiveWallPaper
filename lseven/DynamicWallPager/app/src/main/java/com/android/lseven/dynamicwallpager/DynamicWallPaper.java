@@ -44,7 +44,6 @@ public class DynamicWallPaper extends WallpaperService{
         @Override
         public void onSurfaceCreated(SurfaceHolder holder) {
             super.onSurfaceCreated(holder);
-            //绘制
             initMediaPlayer(holder);
         }
 
